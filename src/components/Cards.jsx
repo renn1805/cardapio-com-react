@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 import { pratosPrincipais, sobremesas, bebidas } from "../assets/cardapio.js";
 

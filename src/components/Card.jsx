@@ -1,6 +1,3 @@
-import React from "react";
-import ImgProduto from "../assets/pratos/burguer-picanha.jpeg";
-
 const Card = ({ itemCategoria }) => {
   const { nome, preco, imagem, descricao } = itemCategoria;
 

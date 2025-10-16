@@ -1,8 +1,6 @@
-import React from "react";
-
+//? pagina responsavel pela navegação do site que usa mudança de estados, sendo que cada estado é uma posição do array de categorias e para cada uma das categorias aparecem os cards respectivos
 const Navegacao = ({ setCategoriaSelecionada, categoriaSelecionada }) => {
   const categorias = ["Pratos Principais", "Sobremesas", "Bebidas"];
-  console.log(categoriaSelecionada);
 
   return (
     <div className="categorias">

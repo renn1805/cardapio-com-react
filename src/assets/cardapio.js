@@ -1,3 +1,4 @@
+//? esse documento serve para guardar as informações dos cards, assim definindo as imagens e criando os objetos com suas devidas propriedades que seram exportados para a pagina de cards
 import enroladinhoMignonImg from "./pratos/enroladinho-mignon.jpeg";
 import casal20Img from "./pratos/casal-20.jpeg";
 import burguerPicanhaImg from "./pratos/burguer-picanha.jpeg";
@@ -111,6 +112,7 @@ const heineken = {
   descricao: "355ml",
 };
 
+//? lista de pratos principais que serão exportados
 export const pratosPrincipais = [
   burguerPicanha,
   enroladinhoMignon,
@@ -119,6 +121,8 @@ export const pratosPrincipais = [
   risotoCamaraoTrufado,
 ];
 
+//? lista de sobremesas principais que serão exportadas
 export const sobremesas = [brownie, cocadaForno, petitGateau];
 
+//? lista de bebidas principais que serão exportadas
 export const bebidas = [aguaSemGas, aguaComGas, cocaCola, guarana, heineken];
